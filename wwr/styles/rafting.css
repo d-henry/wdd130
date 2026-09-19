@@ -72,6 +72,16 @@ h1 {
     color: #fff
 }
 
+h2 {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff
+}
+
 article {
     position: absolute;
     font-style: var(--body-font);
