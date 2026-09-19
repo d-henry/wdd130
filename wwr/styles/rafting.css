@@ -1,7 +1,7 @@
 :root {
     --primary-color: #151B54;
     /* Night Blue */
-    --secondary-color: #b57949;
+    --secondary-color: #140581;
     --accent1-color: #1f0e6a;
     --accent2-color: rgb(213, 177, 15);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -62,6 +62,11 @@ article {
 
 .hero article {
     position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    background-color: rgb(from var(--secondary-color) r g b / 0.7);
+    color: #fff;
 }
 
 .hero article img {
