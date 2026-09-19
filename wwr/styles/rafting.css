@@ -41,8 +41,9 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+.socialmedia a img {
     text-decoration: none;
+    width: 50px;
 }
 
 .hero {
@@ -56,7 +57,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 .hero article img {
