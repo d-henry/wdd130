@@ -55,8 +55,12 @@ article {
     height: auto;
 }
 
+.hero article {
+    position: relative;
+}
+
 .hero article img {
-    float: right;
+    float: left;
     width: 125px;
     border: var(--border-black)
 }
