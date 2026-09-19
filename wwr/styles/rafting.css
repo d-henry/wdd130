@@ -30,7 +30,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 nav,
@@ -39,6 +39,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia a img {
@@ -90,5 +94,5 @@ h2 {
 article {
     position: absolute;
     font-style: var(--body-font);
-
+    color: var(--secondary-color);
 }
