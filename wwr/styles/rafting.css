@@ -89,7 +89,8 @@ section {
 }
 
 .socialmedia {
-    display: flex
+    display: flex;
+    justify-content: flex-end;
 }
 
 .socialmedia a {
@@ -98,7 +99,6 @@ section {
 }
 
 .socialmedia a img {
-    justify-content: right;
     text-decoration: none;
     width: 50px;
     filter: invert(1);
