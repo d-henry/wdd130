@@ -22,9 +22,34 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
     background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+header img {
+    width: 90%;
+    height: auto;
+    justify-self: right;
+}
+
+header li {
+    flex: 1;
+    border: 1px solid var(--text-color);
+    background-color: var(--accent1-color);
+    text-align: center;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav a {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 footer {
@@ -44,7 +69,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 h1,
@@ -52,26 +77,20 @@ h2 {
     font-family: var(--heading-font);
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-}
-
-header nav a {
-    color: var(--accent1-color)
-}
-
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
 }
 
+section {
+    margin: 16px 0 0 0;
+}
+
 .socialmedia a {
     text-decoration: none;
+    margin: .5rem;
 }
 
 .socialmedia a img {
@@ -82,6 +101,7 @@ article {
 
 .hero {
     position: relative;
+    display: flex;
 }
 
 .hero img {
@@ -92,7 +112,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 24px;
+    align-self: center;
     left: 24px;
     right: 24px;
     background-color: rgb(from var(--primary-color) r g b / 0.8);
@@ -103,6 +123,50 @@ article {
     float: right;
     width: 125px;
     border: var(--border-black)
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: var(--secondary-color);
+    align-items: flex-start;
+}
+
+.history h2 {
+    grid-column: 1 / -1;
+    background: none;
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+}
+
+.history p {
+    color: var(--accent1-color)
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: .5rem;
+    background-color: var(--secondary-color);
+}
+
+.gallery h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 1rem;
+    background: none;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery figcaption {
+    color: var(--accent1-color);
+    text-align: center;
 }
 
 h1 {
@@ -116,8 +180,6 @@ h1 {
 }
 
 h2 {
-    position: relative;
-    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
