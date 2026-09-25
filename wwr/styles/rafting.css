@@ -88,12 +88,17 @@ section {
     margin: 16px 0 0 0;
 }
 
+.socialmedia {
+    display: flex
+}
+
 .socialmedia a {
     text-decoration: none;
     margin: .5rem;
 }
 
 .socialmedia a img {
+    justify-content: right;
     text-decoration: none;
     width: 50px;
     filter: invert(1);
