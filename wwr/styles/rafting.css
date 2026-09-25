@@ -121,7 +121,7 @@ section {
     left: 24px;
     right: 24px;
     background-color: rgb(from var(--primary-color) r g b / 0.8);
-    color: #fff;
+    color: var(--accent1-color);
 }
 
 .hero article img {
