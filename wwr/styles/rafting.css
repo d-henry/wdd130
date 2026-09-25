@@ -157,6 +157,8 @@ section {
     grid-template-columns: repeat(5, 1fr);
     column-gap: .5rem;
     background-color: var(--secondary-color);
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .gallery h2 {
