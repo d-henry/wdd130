@@ -145,6 +145,7 @@ section {
 .history img {
     width: 100%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .history p {
