@@ -337,10 +337,12 @@ article {
     background-color: white;
 }
 
-.team h2 {
+.team h1 {
+    position: relative;
     background: none;
     color: white;
-    padding: 0.5rem 0 1rem;
+    padding: 2rem;
+    top: 0;
 }
 
 .team p {
