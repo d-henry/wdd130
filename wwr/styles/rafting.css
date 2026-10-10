@@ -223,6 +223,13 @@ article {
     padding: 0;
 }
 
+.form_newsletter {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+}
+
 .field {
     display: grid;
     grid-template-columns: 5.5rem 1fr;
@@ -328,6 +335,7 @@ article {
     margin: 0;
     padding: 0;
     text-align: center;
+    justify-content: center;
 }
 
 .team img {
@@ -349,4 +357,25 @@ article {
     margin: 0.4rem 0 0;
     padding: 0;
     font-size: 0.9rem;
+}
+
+.trip_hook {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.btn_trips {
+    font: inherit;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+    padding: 0.4rem;
+    border: var(--border-black);
+    background: var(--accent2-color);
+    cursor: pointer;
+}
+
+.featured img {
+    width: 100%;
 }

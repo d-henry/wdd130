@@ -34,13 +34,12 @@
         </div>
 
         <section class="split">
-            <iframe class="map"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2347.210706951761!2d73.37922713573899!3d18.457714095524857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1791063139517!5m2!1sen!2sus"
-              allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
-              title="Map of White Water Rafting Company">
-            </iframe>
+            <div class="trip_hook">
+                <h2>Book your next trip now!</h2>
+                <a class="btn_trips" href="trips.html">Our Trips</a>
+            </div>
 
-            <form class="form">
+            <form class="form_newsletter">
                 <div class="field">
                     <label for="name">Name</label>
                     <input name="name" type="text" id="name" placeholder="Name" required>
@@ -51,35 +50,48 @@
                     <input type="email" name="email" id="email" placeholder="Email" required>
                 </div>
 
-                <fieldset>
-                    <legend>Message<br>Purpose</legend>
-                    <div class="choices">
-                        <label><input id="general_inquiry" type="radio" name="purpose"
-                              value="general" checked> General
-                            Inquiry</label>
-                        <label><input id="reservation_question" type="radio" name="purpose"
-                              value="reservation"> Reservation
-                            Question</label>
-                        <label><input id="website_suggestion" type="radio" name="purpose"
-                              value="website"> Website
-                            Suggestion</label>
-                    </div>
-                </fieldset>
-
-                <div class="field field--stack">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="4" placeholder="Type here"
-                      required></textarea>
+                <div class="field">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="XXX-XXX-XXXX">
+                    <!-- not required -->
                 </div>
 
-                <label class="check">
-                    <input id="checkbox_newsletter" type="checkbox" name="newsletter" checked>
-                    Please Subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Get in Touch!</button>
+                <button type="submit">Subscribe to our newsletter!</button>
             </form>
 
+        </section>
+
+        <!-- add the other grid with images and details about our tours. -->
+        <section class="team featured">
+            <h1 id="team-heading">Life is dry. We Fix that!</h1>
+            <ul>
+                <li>
+                    <img src="images/sad_passengers.jpg"
+                      alt="A group of river rafters enjoying the ice cold river!">
+                    <h3>The Cold Plunge</h3>
+                    <p>The Cold Plunge is one of our customers' favorite offerings. It provides
+                        numerous health benefits such as increased circulation, enhanced mental
+                        fortitude, and greater restraint in future trip planning!
+                    </p>
+                </li>
+                <li>
+                    <p>Since our founding we have always believed that every vacation deserves a
+                        story you'll tell for the rest of your life, however long that may be.</p>
+
+                    <p>Our safety standards are second to none! We only use certified guides,
+                        protective equipment is included in the cost of your tour, and we are proud
+                        to boast an 84% safe return rate!</p>
+                </li>
+                <li>
+                    <img src="images/croc_shock.jpg"
+                      alt="One rafter bit off more than he could chew!">
+                    <h3>The Gator Gauntlet</h3>
+                    <p>This tour allows you the unique experience of becoming one with nature!
+                        Our scaly friends love to help you along the river, just make sure to stay
+                        in the boat for this one! </p>
+                    <p><small>enhanced liability waiver required*</small></p>
+                </li>
+            </ul>
         </section>
     </main>
 
