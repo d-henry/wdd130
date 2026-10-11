@@ -362,7 +362,16 @@ article {
 .trip_hook {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: .5rem;
+    align-items: center;
+}
+
+.trip_hook h2 {
+    width: 400px;
+}
+
+.trip_hook a {
+    width: 100px;
 }
 
 .btn_trips {
@@ -376,6 +385,46 @@ article {
     cursor: pointer;
 }
 
+.trip_description {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.trip_description h2 {
+    grid-column: 1 / -1;
+}
+
+.trip_description img {
+    width: 100%;
+    height: auto;
+}
+
 .featured img {
     width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 0 auto 1rem;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
 }
